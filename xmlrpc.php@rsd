@@ -4,11 +4,11 @@
     <engineLink>https://wordpress.org/</engineLink>
     <homePageLink>http://ripper234.com</homePageLink>
     <apis>
-      <api name="WordPress" blogID="1" preferred="true" apiLink="http://ripper234.com/xmlrpc.php" />
-      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://ripper234.com/xmlrpc.php" />
-      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://ripper234.com/xmlrpc.php" />
-      <api name="Blogger" blogID="1" preferred="false" apiLink="http://ripper234.com/xmlrpc.php" />
-      	<api name="WP-API" blogID="1" preferred="false" apiLink="http://ripper234.com/wp-json/" />
+      <api name="WordPress" blogID="1" preferred="true" apiLink="http://v1.ripper234.com/xmlrpc.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://v1.ripper234.com/xmlrpc.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://v1.ripper234.com/xmlrpc.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="http://v1.ripper234.com/xmlrpc.php" />
+      	<api name="WP-API" blogID="1" preferred="false" apiLink="http://v1.ripper234.com/wp-json/" />
 	    </apis>
   </service>
 </rsd>
