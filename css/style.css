@@ -521,4 +521,22 @@ div.aligncenter {
 .post-ratings{
 	display: none;
 }
+.search{
+	max-width: 300px;
+}
+.search .gsc-control-cse{
+	background: transparent;
+	padding: 0px;
+	border: none;
+}
+.index-page .search{
+	float: none;
+	max-width: 450px
+}
+.index-page #sidebar li{
+	max-width: 300px;
+	display: block;
+	text-align: left!important;
+}
 /*custom styles end*/
+
