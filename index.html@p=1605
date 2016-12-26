@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="http://v1.ripper234.com/css/print.css" type="text/css" media="print" />
 <link rel="alternate" type="application/rss+xml" title="A Quantum Immortal RSS Feed" href="http://v1.ripper234.com/feed/" />
 <link rel="pingback" href="http://v1.ripper234.com/xmlrpc.php" />
-<link rel="icon" type="image/x-icon" href="http://ripper234.wpengine.netdna-cdn.com/favicon.png">
+<link rel="icon" type="image/x-icon" href="/favicon.png">
 
 <link rel="alternate" type="application/rss+xml" title="A Quantum Immortal &raquo; WhateverOrigin &#8211; Combat the Same Origin Policy with Heroku and Play! Framework Comments Feed" href="http://v1.ripper234.com/p/whatever-origin-combat-same-origin-policy-with-heroku-and-play-framework/feed/" />
 		<script type="text/javascript">
