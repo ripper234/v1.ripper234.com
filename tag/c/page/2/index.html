@@ -130,7 +130,7 @@ img.emoji {
 </ol>
 <p>I also pulled my team leader <a href="http://lnbogen.com/">Oren</a> into this problem, and he came up with a state based <a href="http://www.lnbogen.com/2009/01/28/ReaderWriterLockMyNaiveImplementation.aspx">implementation</a> &#8211; not that far from my own, with an additional &#8220;state&#8221; integer that represents whether the lock is in &#8220;writing mode&#8221;, &#8220;reading mode&#8221; or free. He also added a few TestAndCompare hacks for checking the state.</p>
 <p>Finally, I tested the performance of these locks vs two locks that are availble in .NET 3.5: <a href="http://msdn.microsoft.com/en-us/library/system.threading.readerwriterlock.aspx">ReaderWriterLock</a> and <a href="http://msdn.microsoft.com/en-us/library/system.threading.readerwriterlockslim.aspx">ReaderWriterLockSlim</a>. I only tested only one scenario, but was pleasantly surprised to discover the performance of both my EventReaderWriterLock and Oren&#8217;s StateReaderWriterLock were identical to that of ReaderWriterLockSlim, and better than ReaderWriterLock! (The performance of DummyReaderWriterLock were literally off the charts).</p>
-<p><img class="size-full wp-image-914" title="ReaderWriterLock Performance" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2009/01/RWLocksPerformance.png" alt="ReaderWriterLock Performance" width="686" height="407" /></p>
+<p><!-- Deprecated image <imgs+[^>]*src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/[^"]*"[^>]*> --></p>
 <p>Here is my implementation:</p>
 
 <div class="wp_syntax"><table><tr><td class="code"><pre class="csharp" style="font-family:monospace;">    <span style="color: #008080; font-style: italic;">/// </span>
