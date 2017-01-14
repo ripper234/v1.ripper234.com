@@ -153,7 +153,7 @@ img.emoji {
 </ol>
 </li>
 </ol>
-<p><-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su1.png" border="0" alt="image" width="791" height="431" /> --></p>
+<p><!-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su1.png" border="0" alt="image" width="791" height="431" /> --></p>
 <h3>Day 4</h3>
 <ul>
 <li>I quickly caught myself duplicating code, and turned to learn about <a href="http://highoncoding.com/Articles/638_Understanding_Partial_Views_in_ASP_NET_MVC_Application.aspx">Partial Views</a>, which are reusable View pieces.</li>
@@ -164,7 +164,7 @@ img.emoji {
 <li>Since every View needs the User to render, I created a Model base class that contains the current user. I’m not sure if this is the best way to go here, but it worked (what are your recommended best practices to store the user data?)</li>
 <li>I implemented OpenID login using <a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a>, and it was quite a breeze. No need to store user credentials, just store his public open id and let other websites handle the authentication for you.</li>
 </ul>
-<p><-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su2.png" border="0" alt="image" width="701" height="524" /> --></p>
+<p><!-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su2.png" border="0" alt="image" width="701" height="524" /> --></p>
 <h3>Day 5</h3>
 <p>After allowing users to login and post questions, the next thing I wanted to implement was voting. So far all the code was server-side, but voting requires javascript because when a user votes you don’t want to refresh the page, but rather just change the vote icon. So:</p>
 <ul>
@@ -173,14 +173,14 @@ img.emoji {
 <li>Initially I had an ‘AddVote’ method, but quickly switched to ‘UpdateVote’, which makes more sense.</li>
 <li>Some css tweaks to make the cursor change to a pointer while on the voting buttons</li>
 </ul>
-<p><-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su3.png" border="0" alt="image" width="731" height="541" /> --></p>
+<p><!-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su3.png" border="0" alt="image" width="731" height="541" /> --></p>
 <h3>Day 6</h3>
 <ul>
 <li>I finally had to cache vote count on questions &amp; answers. The total vote count / score of a question has to be indexed, because we’ll have pages that get the ‘hottest posts’, and so keeping the User-Question vote relation is not enough.</li>
 <li>So far, all my entities were strictly mapped to database rows. Now, I had to create a new ‘rich entity’ that contained a post and the current users’ vote on this post.</li>
 <li>Finding myself duplicating logic between questions &amp; answers, I create a Post base class and factored the entities and repositories to work on abstract posts.</li>
 </ul>
-<p><-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su4.png" border="0" alt="image" width="731" height="646" /> --></p>
+<p><!-- Deprecated image <img style="display: inline; border: 0px;" title="image" src="http://ripper234.wpengine.netdna-cdn.com/wp-content/uploads/2010/02/su4.png" border="0" alt="image" width="731" height="646" /> --></p>
 <p>This is it for now. I hope I didn’t make too many glaring mistakes in the process. As I mentioned, the <a href="http://github.com/ripper234/Stack-Underflow">code is available at GitHub</a> &#8211; if you’re interested in helping develop it or have any questions, please let me know.</p>
 				</div>
 		
