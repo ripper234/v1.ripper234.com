@@ -538,5 +538,22 @@ div.aligncenter {
 	display: block;
 	text-align: left!important;
 }
+#contactstable{
+	cell-spacing: 0;
+}
+#contactstable,
+#contactstable td{
+	padding-left: 0;
+	padding-right: 0;
+	border: none!important;
+}
+#contactstable img{
+	display: none
+}
+.commentlist,
+.commentlist li{
+	border: none;
+}
+
 /*custom styles end*/
 
